@@ -3,8 +3,9 @@ require File.expand_path('../lib/magic_date_parser/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Substantial"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Parses a string representation of a date range and returns a start and end date.}
+  gem.summary       = %q{Parses a string representation of a date range (for example, "December 4 - 7, 1969") and
+                         and returns a list containing a start date and end date.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
