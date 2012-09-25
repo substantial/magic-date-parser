@@ -1,3 +1,4 @@
+require 'date'
 require "magic_date_parser/version"
 
 module MagicDateParser
