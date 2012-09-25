@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Parses a string representation of a date range and returns a start and end date.}
   gem.summary       = %q{Parses a string representation of a date range (for example, "December 4 - 7, 1969") and
                          and returns a list containing a start date and end date.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/substantial/magic-date-parser"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
